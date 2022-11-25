@@ -1,12 +1,12 @@
 .GlavniBaner
 {
   background-image: url('../../../assets/img/ProbajOvu.jpg');
-height: 600px;
+height: 650px;
   background-position: center top;
   background-size: cover;
 }
 .GlavniKomponente{
-  top: 20%;
+  top: 5%;
   left: 20%;
   position: absolute;
   width: 100%;
@@ -14,6 +14,7 @@ height: 600px;
 }
  h1
 {
+   padding: 30px;
   color: darkred;
   font-weight: bold;
   font-size: 60px;
@@ -25,8 +26,32 @@ height: 600px;
   padding: 15px 20px;
   position: absolute;
   right: 50%;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   border-radius: 5px;
 
+}
+.GlavniKomponente a:hover
+{
+  color: firebrick;
+}
+.UputeKontenjer{
+  background-color:  #171515;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.UputeKontenjer p{
+  color: red;
+  font-weight: bold;
+font-style: italic;
+}
+.UputeKontenjer h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+.izdvoji{
+  font-style: italic;
+  text-decoration: underline;
 }

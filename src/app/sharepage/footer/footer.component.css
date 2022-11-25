@@ -3,25 +3,29 @@
   top:100%;
   position: sticky;
   overflow: hidden;
-  background-color: aquamarine;
+  background-color: #171515;
   padding: 20px 15px;
+
 }
 h1
 {
   font-weight: bold;
   color: red;
-  font-size:20px;
+  font-size:30px;
 }
 a{
   color: red;
-  text-decoration: none;
+  text-decoration:underline;
   padding: 2px 5px;
-  font-size: 18px;
+  font-size: 25px;
+
 }
 i{
-  padding:0px 5px ;
+  padding:0px 10px ;
+
 }
 p{
   color: red;
-  font-size: 14px;
+  font-size: 18px;
+  font-style: italic;
 }
