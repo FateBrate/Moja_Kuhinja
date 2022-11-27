@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import * as url from "url";
 
 @Injectable({
   providedIn: 'root'
@@ -10,44 +11,49 @@ export class DetaljiNarudzbeService {
     {
       id:1,
       naziv:"Tost-sendvic",
-      detalji:"Tostirani sendvic pileća šunka,namaz,salta",
-      cijena:4,
-      slika:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+      detalji:"Tostirani sendvic pileća šunka,namaz,salata",
+      cijena:"4KM",
+      slika:"assets\\img\\tost.jpg"
     },
     {
       id:2,
       naziv:"Pileća salata",
       detalji:"piletina,kupus,sos",
-      cijena:6,
-      slika:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k"
+      cijena:"6KM",
+      slika:"assets\\img\\salata.jpg"
+
     },
     {
       id:3,
       naziv:"Hamburger",
       detalji:"pljeskavica,namaz,salata",
-      cijena:5,
-      slika:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k"
+      cijena:"5KM",
+      slika:"assets\\img\\hamburger.jpg"
+
     },
     {
       id:4,
       naziv:"Cheesburger",
       detalji:"pljeskavica,namaz,salata,sir",
-      cijena:6,
-      slika:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7"
+      cijena:"6KM",
+      slika:"assets\\img\\cheesburger.jpg"
+
     },
     {
       id:5,
       naziv:"Hot dog",
       detalji:"hrenovka,salata,namaz",
-      cijena:4,
-      slika:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv"
+      cijena:"4KM",
+      slika:"assets\\img\\hotdog.jpg"
+
     },
     {
       id:6,
       naziv:"Palačinci",
       detalji:"Palčinak,keks,krem",
-      cijena:6,
-      slika:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+      cijena:"6KM",
+      slika:"assets\\img\\palacinci.jpg"
+
     }
   ]
 

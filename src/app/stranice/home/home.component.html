@@ -27,3 +27,15 @@
     </div>
 </div>
   </div>
+<div class="HranaKontejner mt-4 mb-4">
+  <div class="row">
+    <div class="kont col-lg-3 mt-3"*ngFor="let x of hranaPodaci">
+      <div class="Hranabox">
+        <img [src]="x.slika"/>
+        <h1>{{x.naziv}}</h1>
+        <p>{{x.detalji}}</p>
+        <h2>{{x.cijena}}</h2>
+      </div>
+      </div>
+  </div>
+</div>
