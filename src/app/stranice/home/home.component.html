@@ -29,8 +29,9 @@
   </div>
 <div class="HranaKontejner mt-4 mb-4">
   <div class="row">
-    <div class="kont col-lg-3 mt-3"*ngFor="let x of hranaPodaci">
-      <div class="Hranabox">
+
+    <div class="kont col-lg-3 mt-3"*ngFor="let x of hranaPodaci;">
+      <div class="Hranabox"*ngIf="x.id<=3">
         <img [src]="x.slika"/>
         <h1>{{x.naziv}}</h1>
         <p>{{x.detalji}}</p>
@@ -38,4 +39,5 @@
       </div>
       </div>
   </div>
+  <a routerLink="menu" class="višeJelaBtn">više jela<i class="bi bi-arrow-right"></i> </a>
 </div>

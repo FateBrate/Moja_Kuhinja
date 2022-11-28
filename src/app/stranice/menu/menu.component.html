@@ -1,1 +1,13 @@
-<p>menu works!</p>
+<div class="HranaKontejner mt-5 mb-5">
+<div class="row">
+  <div class=" kont col-lg-4"*ngFor="let x of hranaPodaci">
+  <div class="Hranabox">
+    <img [src] ="x.slika">
+    <h1>{{x.naziv}}</h1>
+    <p>{{x.detalji}}</p>
+    <h2>{{x.cijena }}</h2>
+    <button class="odaberiBtn">Odaberi</button>
+  </div>
+  </div>
+</div>
+</div>

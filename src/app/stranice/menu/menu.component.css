@@ -1,0 +1,51 @@
+.Hranabox img
+{
+
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+
+
+}
+.Hranabox h1
+{
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.Hranabox
+{
+margin-bottom: 10px;
+  text-align: center;
+}
+.Hranabox p{
+  font-style: italic;
+  color: #de6565;
+}
+.Hranabox h2
+{
+  font-size:20px;
+}
+.HranaKontejner{
+  padding: 10px;
+display: flex;
+  flex-wrap: wrap;
+}
+.Hranabox a{
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 4px 4px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+.odaberiBtn{
+  background-color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
