@@ -5,9 +5,9 @@
     <img [src] ="x.slika">
     <h1>{{x.naziv}}</h1>
     <p>{{x.detalji}}</p>
-    <h2>{{x.cijena}}</h2>
+    <h2>{{x.cijena | currency:"BAM "}}</h2>
 
-    <button class="odaberiBtn">Izaberi</button>
+    <button class="odaberiBtn"[routerLink]="['/menu',x.id]">Izaberi</button>
 
 
 

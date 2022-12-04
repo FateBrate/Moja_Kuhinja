@@ -1,0 +1,10 @@
+<div class="kontejner mt-5 mb-5">
+  <div class="row">
+    <div class="kont col-lg-4"*ngIf="menupodaci">
+      <img src="{{menupodaci[0].slika}}"width="100%">
+      <h1>{{menupodaci[0].naziv}}</h1>
+    <p>{{menupodaci[0].detalji}}</p>
+      <h2>{{menupodaci[0].cijena | currency:"BAM "}}</h2>
+    </div>
+  </div>
+</div>

@@ -9,6 +9,7 @@ import { MenuComponent } from './stranice/menu/menu.component';
 import { AboutComponent } from './stranice/about/about.component';
 import { ContactComponent } from './stranice/contact/contact.component';
 import{AppRoutingModule} from "./app-routing.module";
+import { NarudzbaComponent } from './stranice/narudzba/narudzba.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import{AppRoutingModule} from "./app-routing.module";
     HomeComponent,
     MenuComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    NarudzbaComponent
   ],
   imports: [
     BrowserModule,

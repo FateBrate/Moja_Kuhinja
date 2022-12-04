@@ -12,14 +12,14 @@ export class DetaljiNarudzbeService {
       id:1,
       naziv:"Tost-sendvic",
       detalji:"Tostirani sendvic pileća šunka,namaz,salata",
-      cijena:"4KM",
+      cijena:"4",
       slika:"assets\\img\\tost.jpg"
     },
     {
       id:2,
       naziv:"Pileća salata",
       detalji:"piletina,kupus,sos",
-      cijena:"6KM",
+      cijena:"6",
       slika:"assets\\img\\salata.jpg"
 
     },
@@ -27,7 +27,7 @@ export class DetaljiNarudzbeService {
       id:3,
       naziv:"Hamburger",
       detalji:"pljeskavica,namaz,salata",
-      cijena:"5KM",
+      cijena:"5",
       slika:"assets\\img\\hamburger.jpg"
 
     },
@@ -35,7 +35,7 @@ export class DetaljiNarudzbeService {
       id:4,
       naziv:"Cheesburger",
       detalji:"pljeskavica,namaz,salata,sir",
-      cijena:"6KM",
+      cijena:"6",
       slika:"assets\\img\\cheesburger.jpg"
 
     },
@@ -43,7 +43,7 @@ export class DetaljiNarudzbeService {
       id:5,
       naziv:"Hot dog",
       detalji:"hrenovka,salata,namaz",
-      cijena:"4KM",
+      cijena:"4",
       slika:"assets\\img\\hotdog.jpg"
 
     },
@@ -51,7 +51,7 @@ export class DetaljiNarudzbeService {
       id:6,
       naziv:"Palačinci",
       detalji:"Palčinak,keks,krem",
-      cijena:"6KM",
+      cijena:"6",
       slika:"assets\\img\\palacinci.jpg"
 
     }
