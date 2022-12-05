@@ -1,0 +1,53 @@
+.kolona{
+  width: 100%;
+padding: 10px 10px;
+
+  background-color: #171515;
+  color: red;
+}
+
+.forma{
+  width: 40%;
+
+
+}
+.kontejner
+{
+  padding: 10px 40px;
+}
+form{
+  margin-top: 10%;
+  width: 80%;
+
+
+}
+
+.naruciBTN{
+  padding: 5px 5px;
+  font-weight: bold;
+  margin-top: 5px;
+  background-color: #171515;
+  color: red;
+  width: 30%;
+
+}
+.btNazad{
+  text-decoration: none;
+  padding: 5px 5px;
+  color :red;
+  background-color: #171515;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.kontejner img{
+  margin-top: 5px;
+
+}
+p{
+  color: darkred;
+}
+
+::placeholder{
+  color: red;
+}
