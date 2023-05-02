@@ -1,35 +1,31 @@
 <div class="kontejner mt-5 mb-5">
   <div class="row">
-
-    <div class="kont col-lg-4"*ngIf="menupodaci">
-      <a routerLink="../../menu" class="btNazad btn-sm ">Nazad na meni</a>
-      <img src="{{menupodaci[0].slika}}"width="100%">
-      <h1>{{menupodaci[0].naziv}}</h1>
-      <p>{{menupodaci[0].detalji}}</p>
-      <h2>{{menupodaci[0].cijena | currency:"BAM "}}</h2>
+    <div class="kont col-lg-4" *ngIf="menupodaci">
+      <a routerLink="../../menu" class="btNazad btn-sm">Nazad na meni</a>
+      <img src="{{ menupodaci[0].slika }}" width="100%" />
+      <h1>{{ menupodaci[0].naziv }}</h1>
+      <p>{{ menupodaci[0].detalji }}</p>
+      <h2>{{ menupodaci[0].cijena | currency : "BAM " }}</h2>
     </div>
     <div class="racun">
-      <h3>Količina:{{kolicina}}</h3>
+      <h3>Količina:{{ kolicina }}</h3>
       <div class="qty mt-5">
-        <span class="minus bg-dark"(click)="smanji()">-</span>
-        <input type="number"  value="{{kolicina}}">
-        <span class="plus bg-dark"(click)="povecaj()">+</span>
+        <span class="minus bg-dark" (click)="smanji()">-</span>
+        <input type="number" value="{{ kolicina }}" />
+        <span class="plus bg-dark" (click)="povecaj()">+</span>
       </div>
 
-      <h3>Ukupno:{{izracunajCijenu()|currency:"BAM " }}</h3>
+      <h3>Ukupno:{{ izracunajCijenu() | currency : "BAM " }}</h3>
     </div>
-<div class="forma col-lg-5">
-  <h1>Unesite svoje podatke</h1>
-<form>
-  <input type="text"class="kolona" placeholder="Ime:"/>
-  <input type="text"class="kolona" placeholder="Prezime:"/>
-  <input type="text"class="kolona" placeholder="Adresa:"/>
-  <input type="text"class="kolona" placeholder="Broj telefona:"/>
-  <button class="naruciBTN">Naruči</button>
-
-</form>
-
-</div>
-
+    <div class="forma col-lg-5">
+      <h1>Unesite svoje podatke</h1>
+      <form>
+        <input type="text" class="kolona" placeholder="Ime:" />
+        <input type="text" class="kolona" placeholder="Prezime:" />
+        <input type="text" class="kolona" placeholder="Adresa:" />
+        <input type="text" class="kolona" placeholder="Broj telefona:" />
+        <button class="naruciBTN">Naruči</button>
+      </form>
+    </div>
   </div>
 </div>

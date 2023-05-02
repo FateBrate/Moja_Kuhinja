@@ -1,57 +1,85 @@
-.kolona{
+.kolona {
   width: 100%;
-padding: 10px 10px;
-
+  padding: 10px 10px;
   background-color: #171515;
   color: red;
 }
 
-.forma{
+.forma {
   width: 40%;
-
-
 }
-.kontejner
-{
+.kontejner {
   padding: 10px 40px;
 }
-form{
+form {
   margin-top: 10%;
   width: 80%;
-
-
 }
 
-.naruciBTN{
+.naruciBTN {
   padding: 5px 5px;
   font-weight: bold;
   margin-top: 5px;
   background-color: #171515;
   color: red;
   width: 30%;
-
 }
-.btNazad{
+.btNazad {
   text-decoration: none;
   padding: 5px 5px;
-  color :red;
+  color: red;
   background-color: #171515;
   margin-bottom: 5%;
   border-radius: 5px;
   font-weight: bold;
 }
-.kontejner img{
+.kontejner img {
   margin-top: 5px;
-
 }
-p{
+p {
   color: darkred;
 }
 
-::placeholder{
+::placeholder {
   color: red;
 }
-.kont img{
+.kont img {
   width: 500px;
   height: 500px;
+}
+.qty {
+  display: flex;
+}
+
+.qty .qty-input {
+  width: 20px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.qty .minus,
+.qty .plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #343a40;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.qty .minus:hover,
+.qty .plus:hover {
+  background-color: #212529;
 }
